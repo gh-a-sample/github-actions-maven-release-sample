@@ -46,6 +46,24 @@
 	<build>
 		<plugins>
 			<plugin>
+				<groupId>com.google.cloud.tools</groupId>
+				<artifactId>jib-maven-plugin</artifactId>
+				<configuration>
+					<skip>false</skip>
+					<from>
+						<image>qcastel/docker-alpine-with-bash:0.3</image>
+					</from>
+					<to>
+						<image>registry.hub.docker.com/qcastel/github-actions-maven-release-sample</image>
+						<tags>
+							<tag>${project.parent.version}</tag>
+							<tag>latest</tag>
+						</tags>
+					</to>
+				</configuration>
+			</plugin>
+
+			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
