@@ -12,10 +12,20 @@
 	<artifactId>demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>demo</name>
-	<description>Demo of a java project that uses github actions for releasing artefacts and commits</description>
+	<description>Demo of a java project that uses github actions for releasing artifacts and commits</description>
+
 	<properties>
 		<java.version>15</java.version>
+		<maven-release-plugin.version>2.5.3</maven-release-plugin.version>
 	</properties>
+
+	<scm>
+		<connection>scm:git:${project.scm.url}</connection>
+		<developerConnection>scm:git:${project.scm.url}</developerConnection>
+		<url>git@github.com:qcastel/github-actions-maven-release-sample.git</url>
+		<tag>HEAD</tag>
+	</scm>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -39,6 +49,15 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+
+			<plugin>
+				<artifactId>maven-release-plugin</artifactId>
+				<version>${maven-release-plugin.version}</version>
+				<configuration>
+					<scmCommentPrefix>[ci skip]</scmCommentPrefix>
+					<tagNameFormat>@{project.version}</tagNameFormat>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
