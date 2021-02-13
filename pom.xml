@@ -16,6 +16,7 @@
 	<properties>
 		<java.version>11</java.version>
 		<maven-release-plugin.version>2.5.3</maven-release-plugin.version>
+		<google.jib.version>2.1.0</google.jib.version>
 	</properties>
 
 	<scm>
