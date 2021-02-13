@@ -29,5 +29,5 @@ jobs:
           git-release-bot-name: "bot-idhub"
           git-release-bot-email: "bot@idhub.io"
 
-          maven-args: "-Dmaven.javadoc.skip=true -DskipTests -DskipITs -s .github/settings.xml"
+          maven-args: "-Dmaven.javadoc.skip=true -DskipTests -DskipITs -Dmaven.deploy.skip=true  -s .github/settings.xml"
           ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
