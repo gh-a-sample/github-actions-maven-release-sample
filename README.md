@@ -115,14 +115,18 @@ exit
 As an output, we got:
 
 ```
-Copy the following SSH private key and add it to your repo secrets under the name 'SSH_PRIVATE_KEY':LS0tLS1CRUdJTiBPUEVOU1NIIFBSSVZBVEUgS0VZLS0tLS0KYjNCbGJuTnphQzFyWlhrdGRqRUFB QUFBQkc1dmJtVUFBQUFFYm05dVpRQUFBQUFBQUFBQkFBQUJGd0FBQUFkemMyZ3RjbgpOaEFBQUFB d0VBQVFBQUFRRUF2NXo3bmRmZVZ0T0czdEpHWklOZUt4OVRRdjVNdEQ2QmN4V3ZLS2p2RE9GZVhN N040Z0RBCisyRjIxQUJQY3NqSXBGNURLc0VJcDBJbE51NGhNQWFISC95TEREQVh4aTRGY05uS1hN L2pyOVViWmU4dmtINXJWYldzZ2cKN3Jib2lUMUV2YTM4UCtSOVF6eDkvcWcxRTBVZjA0UlFYTk5y WVdXRnNLcXU3bklqN2xGUGpMK1pWUnYrUkFFdzAxRlFubwplazNjZTdvalNsZVhCYURFRHhzMVVH YkR2NlZ6YStRMEpWMFRIZjlUQ2ZWSUVNaDAxdUo5NEJTQm91ZzVacjFaNVN3aEZRCjBoSFB4d0Fl OVRRZDBScE92dEpMZjlQK0NCcWtzMmRyWUxZd1hQeGZ4VHlMQ21EejZWbWVTQ1UrTUpYbTBtUmV6 Mk0xaSsKSWtkMVh1VVlaUUFBQThnb3k3RENLTXV3d2dBQUFBZHpjMmd0Y25OaEFBQUJBUUMvblB1 ZDE5NVcwNGJlMGtaa2cxNHJIMQpOQy9reTBQb0Z6RmE4b3FPOE00VjVjenMzaUFNRDdZWGJVQUU5 eXlNaWtYa01xd1FpblFpVTI3aUV3Qm9jZi9Jc01NQmZHCkxnVncyY3BjeitPdjFSdGw3eStRZm10 VnRheUNEdXR1aUpQVVM5cmZ3LzVIMURQSDMrcURVVFJSL1RoRkJjMDJ0aFpZV3cKcXE3dWNpUHVV VStNdjVsVkcvNUVBVERUVVZDZWg2VGR4N3VpTktWNWNGb01RUEd6VlFac08vcFhOcjVEUWxYUk1k LzFNSgo5VWdReUhUVzRuM2dGSUdpNkRsbXZWbmxMQ0VWRFNFYy9IQUI3MU5CM1JHazYrMGt0LzAv NElHcVN6WjJ0Z3RqQmMvRi9GClBJc0tZUFBwV1o1SUpUNHdsZWJTWkY3UFl6V0w0aVIzVmU1Umhs QUFBQUF3RUFBUUFBQVFFQW13UkptOTAwaDFJQjN1cUgKQUhJM0VQUDZ6RXduaWZxM2gzK1hnWEdL VkFWUDdnMXhDdEpKVGhYL3FHdkgycmtOZWN5NDBqSHc2ai9kRTU5N1FmdEYvbAo2MXIxcUpJVS9D SHhaVFhOcmkvVEdQUk54SXdzRkQzTWRwbEo2MVlXc2xEYStBbDE5Y3JJZkVqSU5lbW5acnVaaitt UGlrCm1RcWU4VVJXVVF1TittazNYbkFkNkZxMkVQc1NtVWZtekw2Skt1djZQZW1ScTlJWStaRUxM b0tBNU9BNGttZXdTSHNqUk4KU2FGUHpibnluRE4rUFJpdlVkQnFvWXo1RlB3OHN1cXVmSVpFODQz QTlrdU1hb2R2ak1Icm4zY2RtTXJRUWc0eEdUQlRKdgp6Zkh0RHM4YW5mbk5tVG52SVd0ZkJSelhO bnBaRFBZOTAwOTl5alBXU2NCQVVRQUFBSUFPUjlPSmo4UGpEcWg1UlIwZWNYClJMSzNFaXQwRnN3 T3EvVEdNZU5yM1hYemxpbVJWY2d2NmorQ1pjVENPcWd4KzFVUnRaOUY4TUgvcmNxN1o5VG1aL0Z0 N3QKKzRRMGxkRGFaUXZxQ3NDM3IzK2U0cVJVNUJmQmkwNnY1MU9CeW11Q1ZXV2JpNGVmZFVjSjhh c0l3Z1dad3l4bHZKSjJFeQp0VEFlblpHNmFRa3dBQUFJRUE5ZlUra2dCbHZtVVhuVk9WTjFaMEJy OStpcXF3dm5hcHRhdHRNc3VaZk1kL0RSeEUya0Z0CjZndXVqOFd0U0xqNGIvODRjMjFIcDUyc2Qv YlZBRzhpZzUxWTJoYktMdnVhTHhzTjd2Y3dWbGNpL0hIb0RWdnJhNEViU3gKbm9DaDN4MTdQRDVD SEY2WW14WHBpREZsQk9aMDdSakh2bVJKZFh0MjZrSTlma2Izc0FBQUNCQU1kdnVlOWg2M2J5TVM4 RgpHZHRoK0pCNGp5S2syVEIvL3IzdTNlT29OK05wNXRGcHpYbUNvWDZ3NkNGaEllMXhUODJjcnB4 R0dBYmtTODNVdlM4cmdWClRVNWZua3RpOENpZnBBblNISm5iWE5RMWFudUxYSWZWOWM0S0NsQjdC L3cyWG5QMGtZM1Vib1NNa1lkNlpNdUt1ZjJrR0MKdVdnNjQ3anJEMHcxWHlHZkFBQUFFWEp2YjNS QVlXTmxaV1U1TmpBd1lXVmxBUT09Ci0tLS0tRU5EIE9QRU5TU0ggUFJJVkFURSBLRVktLS0tLQo=
+Copy the following SSH private key and add it to your repo secrets under the name 'SSH_PRIVATE_KEY':LS0tLS1CRUdJTiBPUEVOUXXXX=
 Copy the encoded SSH public key and add it as one of your repo deploy keys with write access:
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC/nPud195W04be0kZkg14rH1NC/ky0PoFzFa8oqO8M4V5czs3iAMD7YXbUAE9yyMikXkMqwQinQiU27iEwBocf/IsMMBfGLgVw2cpcz+Ov1Rtl7y+QfmtVtayCDutuiJPUS9rfw/5H1DPH3+qDUTRR/ThFBc02thZYWwqq7uciPuUU+Mv5lVG/5EATDTUVCeh6Tdx7uiNKV5cFoMQPGzVQZsO/pXNr5DQlXRMd/1MJ9UgQyHTW4n3gFIGi6DlmvVnlLCEVDSEc/HAB71NB3RGk6+0kt/0/4IGqSzZ2tgtjBc/F/FPIsKYPPpWZ5IJT4wlebSZF7PYzWL4iR3Ve5Rhl root@aceee9600aee
 ```
 
 We then go to our project repository, in the secret sections and add the key as follow:
 
+Note: For security reason, I masked a bit the private key, the one you will copy will be much longer.
+![img/add_ssh_private_key.png](img/add_ssh_private_key.png?raw=true)
+
 We next add the SSH public key as a deploy key with write access by going to the `Deploy keys`section:
+![img/bot-public-gpg.png](img/bot-public-gpg.png?raw=true)
 
 ## Setup the maven release GitHub action
 
@@ -154,6 +158,7 @@ jobs:
 
 
 Once you committed this change, if everything goes well, you should see that the CI did commits for bump version change in your repository:
+![img/maven-release-commits.png](img/maven-release-commits.png?raw=true)
 
 
 Congratulations! At this point you should have a functional maven release in place, which bump the version automatically.
@@ -200,6 +205,7 @@ Then we setup the GitHub actions to access the docker hub credentials:
 ```
 
 As you can see, it is setup to read a repository GitHub secrets. Here is how I setup the secret for the sample:
+![img/add-docker-registry-pwd.png](img/add-docker-registry-pwd.png?raw=true)
 
 We then need to update our maven release job to not skip the docker build anymore. Our maven arguments now look like:
 
@@ -209,6 +215,8 @@ We then need to update our maven release job to not skip the docker build anymor
 
 
 Once you commit those changes, you should see that a new docker images has been pushed to docker hub!
+
+![img/push-docker-hub.png](img/push-docker-hub.png?raw=true)
 
 
 ## Setup a CI bot with GPG signature
@@ -235,6 +243,7 @@ https://docs.github.com/en/github/authenticating-to-github/generating-a-new-gpg-
 
 For this sample repository, I will try to not go too much in details on how to do it but please note that in the GitHub actions readme, we got a section dedicated for GPG that may help you: https://github.com/qcastel/github-actions-maven-release#setup-the-bot-gpg-key 
 
+![img/bot-public-gpg.png](img/bot-public-gpg.png?raw=true)
 
 ### Step 5: Invite the bot in your repository
 
@@ -260,3 +269,17 @@ You can then add to the GitHub actions the following config:
 ```
 
 Once you committed those changes, you should see that the release commits are now highlighted with your bot avatar and marked as verified. 
+
+![img/commits-bot-signed.png](img/commits-bot-signed.png?raw=true)
+
+## Conclusion
+
+We saw how you can use maven release as part of your Github CI. From a basic setup, to push to docker hub and using a bot for your CI commits.
+
+Your Java application may have some specificity that you need to adapt in using this github action. For example, you need Java 8 or 15,
+a private repository or even setup a specific branch for your release. Hopefully this should be capture in one of the options from the github action.
+You can find more details in the github repository of the github action itself: https://github.com/qcastel/github-actions-maven-release
+
+As a reminder, you can find the sample project we used during this article here: https://github.com/qcastel/github-actions-maven-release-sample
+
+
