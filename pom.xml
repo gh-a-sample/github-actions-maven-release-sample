@@ -9,7 +9,7 @@
 	</parent>
 	<groupId>com.example</groupId>
 	<artifactId>demo</artifactId>
-	<version>0.0.20</version>
+	<version>0.0.21-SNAPSHOT</version>
 	<name>demo</name>
 	<description>Demo of a java project that uses github actions for releasing artifacts and commits</description>
 
@@ -23,7 +23,7 @@
 		<connection>scm:git:${project.scm.url}</connection>
 		<developerConnection>scm:git:${project.scm.url}</developerConnection>
 		<url>git@github.com:qcastel/github-actions-maven-release-sample.git</url>
-		<tag>0.0.20</tag>
+		<tag>HEAD</tag>
 	</scm>
 
 	<dependencies>
