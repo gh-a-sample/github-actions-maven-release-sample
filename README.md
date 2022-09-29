@@ -127,7 +127,7 @@ Note: For security reason, I masked a bit the private key, the one you will copy
 ![img/add_ssh_private_key.png](img/add_ssh_private_key.png?raw=true)
 
 We next add the SSH public key as a deploy key with write access by going to the `Deploy keys`section:
-![img/bot-public-gpg.png](img/bot-public-gpg.png?raw=true)
+![img/bot-public-gpg.png](img/add_deploy_key.png?raw=true)
 
 ## Setup the maven release GitHub action
 
